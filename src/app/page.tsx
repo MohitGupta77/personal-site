@@ -1,9 +1,9 @@
-import { Navbar } from "@/components/navbar"
-import { Hero } from "@/components/hero"
-import { About } from "@/components/about"
-import { Projects } from "@/components/projects"
-import { Contact } from "@/components/contact"
-import { Footer } from "@/components/footer"
+import { Navbar } from "../components/ui/navbar"
+import { Hero } from "../components/ui/hero"
+import { About } from "../components/ui/about"
+import { Projects } from "../components/ui/projects"
+import { Contact } from "../components/ui/contact"
+import { Footer } from "../components/ui/footer"
 
 export default function Home() {
   return (

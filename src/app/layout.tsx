@@ -1,7 +1,5 @@
-import React from 'react'
 import type { Metadata, Viewport } from 'next'
 import { Inter, Geist_Mono } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 const inter = Inter({
@@ -16,7 +14,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Software Developer | Personal Portfolio',
   description: 'Software developer crafting thoughtful, performant digital experiences. Explore my projects and get in touch.',
-  generator: 'v0.app',
   icons: {
     icon: [
       {
@@ -50,7 +47,6 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${geistMono.variable}`}>
       <body className="font-sans antialiased bg-background text-foreground">
         {children}
-        <Analytics />
       </body>
     </html>
   )
