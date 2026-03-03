@@ -1,4 +1,3 @@
-import React from 'react';
 import { ExternalLink, Github } from "lucide-react"
 
 interface Project {
@@ -37,9 +36,9 @@ const projects: Project[] = [
 
 function ProjectCard({ project }: { project: Project }) {
   return (
-    <article className="group relative flex flex-col rounded-xl border border-border bg-card p-6 transition-colors hover:border-primary/30">
+    <article className="group relative flex flex-col rounded-xl border border-border bg-card p-6 transition-all duration-300 hover:border-primary/30 hover:shadow-[0_0_30px_-10px] hover:shadow-primary/10">
       <div className="mb-4 flex items-center justify-between">
-        <h3 className="text-lg font-semibold text-foreground">
+        <h3 className="text-lg font-semibold text-card-foreground">
           {project.title}
         </h3>
         <div className="flex items-center gap-3">
@@ -70,7 +69,7 @@ function ProjectCard({ project }: { project: Project }) {
         {project.tags.map((tag) => (
           <li
             key={tag}
-            className="rounded-full bg-secondary px-3 py-1 font-mono text-xs text-muted-foreground"
+            className="rounded-full bg-secondary px-3 py-1 font-mono text-xs text-secondary-foreground"
           >
             {tag}
           </li>

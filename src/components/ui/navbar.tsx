@@ -1,6 +1,4 @@
-import React from 'react';
-
-// "use client"
+"use client"
 
 import { useState, useEffect } from "react"
 import { Menu, X } from "lucide-react"
@@ -30,12 +28,12 @@ export function Navbar() {
       }`}
     >
       <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-        {/* <a
-        //   href="#"
-        //   className="font-mono text-sm tracking-wider text-primary transition-colors hover:text-foreground"
+        <a
+          href="#"
+          className="font-mono text-sm tracking-wider text-primary transition-colors hover:text-foreground"
         >
-         {"<dev />"}
-        </a> */}
+          {"<dev />"}
+        </a>
 
         {/* Desktop */}
         <ul className="hidden items-center gap-8 md:flex">
@@ -43,7 +41,7 @@ export function Navbar() {
             <li key={link.href}>
               <a
                 href={link.href}
-                className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+                className="relative text-sm text-muted-foreground transition-colors hover:text-foreground after:absolute after:-bottom-1 after:left-0 after:h-px after:w-0 after:bg-primary after:transition-all hover:after:w-full"
               >
                 {link.label}
               </a>
@@ -54,7 +52,7 @@ export function Navbar() {
         {/* Mobile toggle */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="text-muted-foreground md:hidden"
+          className="text-muted-foreground transition-colors hover:text-foreground md:hidden"
           aria-label={mobileOpen ? "Close menu" : "Open menu"}
         >
           {mobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}

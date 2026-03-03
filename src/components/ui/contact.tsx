@@ -1,4 +1,3 @@
-import React from 'react';
 import { Mail, Github, Linkedin } from "lucide-react"
 
 const socials = [
@@ -32,9 +31,7 @@ export function Contact() {
 
         <div className="mx-auto max-w-lg text-center">
           <p className="mb-8 leading-relaxed text-muted-foreground">
-            I&apos;m always open to discussing new projects, creative ideas, or
-            opportunities to be part of something great. Drop me a line and
-            let&apos;s talk.
+            {"I'm always open to discussing new projects, creative ideas, or opportunities to be part of something great. Drop me a line and let's talk."}
           </p>
 
           <a

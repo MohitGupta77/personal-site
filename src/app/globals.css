@@ -88,3 +88,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom selection color */
+::selection {
+  background-color: oklch(0.82 0.12 75 / 0.3);
+  color: oklch(0.95 0 0);
+}
