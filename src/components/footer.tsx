@@ -2,7 +2,7 @@ export function Footer() {
   return (
     <footer className="px-6 py-12 md:px-12 lg:px-20">
       <p className="max-w-lg text-xs leading-relaxed text-muted-foreground">
-        {"Loosely designed in Figma and coded in "}
+        {"Crafted by me and coded in "}
         <a
           href="https://code.visualstudio.com/"
           target="_blank"
@@ -36,7 +36,7 @@ export function Footer() {
           rel="noopener noreferrer"
           className="font-medium text-foreground transition-colors hover:text-primary"
         >
-          Vercel
+          Github
         </a>
         {"."}
       </p>

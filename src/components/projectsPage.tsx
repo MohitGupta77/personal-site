@@ -13,28 +13,12 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Lumen",
+    title: "Personal Page",
     description:
-      "A design system documentation tool built for speed. Generates component playgrounds from Figma tokens in seconds.",
+      "The website you are currently on! Built with Next.js and Tailwind CSS, featuring a custom spotlight effect and dynamic theming.",
     href: "#",
-    image: "/images/project-1.jpg",
-    tags: ["Next.js", "Tailwind CSS", "Figma API"],
-  },
-  {
-    title: "Drift",
-    description:
-      "A creative-coding sketchbook for the browser. Experiment with shaders, particle systems, and generative art — no setup required.",
-    href: "#",
-    image: "/images/project-2.jpg",
-    tags: ["Three.js", "WebGL", "TypeScript"],
-  },
-  {
-    title: "Cove",
-    description:
-      "A minimal personal finance tracker that turns messy CSV exports into clean, interactive spending insights.",
-    href: "#",
-    image: "/images/project-3.jpg",
-    tags: ["React", "D3.js", "Supabase"],
+    image: "/images/Personal_site_screenshot.png",
+    tags: ["Next.js", "Tailwind CSS", "React", "TypeScript"],
   },
 ]
 

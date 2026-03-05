@@ -1,12 +1,11 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { Github, Linkedin, Twitter, ArrowDown } from "lucide-react"
+import { Github, Linkedin, ArrowDown } from "lucide-react"
 
 const socials = [
-  { label: "GitHub", href: "https://github.com", icon: Github },
-  { label: "LinkedIn", href: "https://linkedin.com", icon: Linkedin },
-  { label: "X / Twitter", href: "https://x.com", icon: Twitter },
+  { label: "GitHub", href: "https://github.com/MohitGupta77", icon: Github },
+  { label: "LinkedIn", href: "https://linkedin.com/in/mohit-gupta-671170251/", icon: Linkedin },
 ]
 
 const sections = ["About", "Experience", "Projects", "Contact"]
@@ -44,14 +43,12 @@ export function Hero() {
     <header className="flex min-h-svh flex-col justify-between px-6 py-16 md:px-12 lg:px-20 lg:py-20">
       <div className="flex flex-col gap-4">
         <p className="text-xs font-medium tracking-[0.2em] uppercase text-primary">
-          Designer & Developer
+          Software and Data Engineer
         </p>
         <h1 className="text-balance font-serif text-5xl leading-tight tracking-tight text-heading md:text-6xl lg:text-7xl">
-          Alex Chen
+          Mohit Gupta
         </h1>
         <p className="max-w-md text-base leading-relaxed text-foreground">
-          I craft thoughtful digital experiences where design intent meets
-          engineering precision.
         </p>
       </div>
 

@@ -13,40 +13,29 @@ interface Role {
 
 const roles: Role[] = [
   {
-    period: "2023 — Present",
-    title: "Senior Product Designer",
-    company: "Meridian",
+    period: "June 2025 - Aug 2025",
+    title: "Data Engineer",
+    company: "Accrete AI",
     href: "#",
     description:
-      "Lead the design system and core product experience for a developer infrastructure platform. Collaborate closely with engineering to ship pixel-perfect, accessible interfaces at scale.",
-    tags: ["Figma", "React", "TypeScript", "Storybook"],
+      "Designed and implemented an automated data pipeline to ingest, transform, and organize raw data into structured datasets. Modeled the processed data as a knowledge graph to expose relationships and enable deeper data insights and analysis.",
+    tags: ["Python", "Apache Airflow", "AWS", "PySpark", "Terraform"],
   },
   {
-    period: "2021 — 2023",
-    title: "Design Engineer",
-    company: "Arclight Studio",
+    period: "2023 — 2024",
+    title: "Web Application Developer",
+    company: "MIT Lincoln Laboratory",
     href: "#",
-    description:
-      "Bridged design and development for a creative agency, building interactive prototypes and production-ready front-ends for clients ranging from Series A startups to Fortune 500 brands.",
-    tags: ["Next.js", "Tailwind CSS", "Framer Motion", "GSAP"],
+    description: "Integrated legacy systems with modern web applications and improved application functionality through database query development. Collaborated closely with cross-functional teams to support development and ensure alignment on project progress and requirements.",
+    tags: ["SQL", "Mulesoft Anypoint"],
   },
   {
-    period: "2019 — 2021",
-    title: "Front-End Developer",
-    company: "Noma Labs",
+    period: "Sep 2022 - Dec 2022",
+    title: "Teaching Assistant",
+    company: "Northeastern University",
     href: "#",
-    description:
-      "Built and maintained the customer-facing web platform for a health-tech startup. Focused on performance, accessibility, and delightful micro-interactions.",
-    tags: ["React", "JavaScript", "CSS", "Node.js"],
-  },
-  {
-    period: "2017 — 2019",
-    title: "Junior Developer",
-    company: "Pixel Union",
-    href: "#",
-    description:
-      "Developed Shopify themes and custom storefronts. Learned the craft of translating pixel-perfect mockups into responsive, cross-browser code.",
-    tags: ["HTML", "CSS", "JavaScript", "Shopify"],
+    description: "Supported undergraduate students in their learning of discrete mathematics concepts and problem-solving techniques.",
+    tags: ["Tutor", "Discrete Mathematics"],
   },
 ]
 

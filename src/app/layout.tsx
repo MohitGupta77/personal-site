@@ -13,8 +13,8 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'Alex Chen — Designer & Developer',
-  description: 'Personal site of Alex Chen. I design and build thoughtful digital experiences.',
+  title: 'Mohit Gupta — Designer & Developer',
+  description: 'Personal site of Mohit Gupta. I design and build thoughtful digital experiences.',
   icons: {
     icon: [
       {
