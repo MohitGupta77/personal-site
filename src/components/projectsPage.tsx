@@ -17,7 +17,7 @@ const projects: Project[] = [
     description:
       "The website you are currently on! Built with Next.js and Tailwind CSS, featuring a custom spotlight effect and dynamic theming.",
     href: "#",
-    image: "/images/Personal_site_screenshot.png",
+    image: "/personal-site/images/Personal_site_screenshot.png",
     tags: ["Next.js", "Tailwind CSS", "React", "TypeScript"],
   },
 ]
