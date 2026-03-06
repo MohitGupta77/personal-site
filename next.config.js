@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   output: "export",
+  trailingSlash: true,
   basePath: "/personal-site",
   assetPrefix: "/personal-site/",
   images: {
