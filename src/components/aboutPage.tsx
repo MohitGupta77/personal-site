@@ -13,13 +13,13 @@ export function About() {
       </h2>
       <div className="max-w-2xl space-y-5 text-base leading-relaxed text-foreground">
         <p>
-          {"I’m a data engineer who enjoys building the systems that turn raw data into reliable, usable information. My experience focuses on designing and maintaining data pipelines, integrating APIs, and developing infrastructure that supports data-driven applications. I’ve worked with ETL workflows, SQL-based data transformations, and cloud-based tooling to ensure data is accessible, scalable, and reliable."}
+          {"I am a data engineer who enjoys building the systems that turn raw data into reliable, usable information. My experience focuses on designing and maintaining data pipelines, integrating APIs, and developing infrastructure that supports data-driven applications. I’ve worked with ETL workflows, SQL-based data transformations, and cloud-based tooling to ensure data is accessible, scalable, and reliable."}
         </p>
         <p>
-          {"Over the years I've worked with many different technologies and languages, and I’ve developed a strong ability to quickly adapt to new tools, frameworks, and engineering practices."}
+          {"Over the years I have worked with many different technologies and languages, and I’ve developed a strong ability to quickly adapt to new tools, frameworks, and engineering practices."}
         </p>
         <p>
-          {"When I'm not at a screen, you'll probably find me running, reading science fiction, eating ramen, or tinkering with some newer AI models."}
+          {"When I'm not at a screen, you'll probably find me running, reading science fiction, or eating ramen."}
         </p>
       </div>
     </section>
