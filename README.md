@@ -4,4 +4,5 @@ run npm run dev for test build.
 
 run npm run build for deployment.
 
-Test.
+Link at:
+https://mohitgupta77.github.io/personal-site/
